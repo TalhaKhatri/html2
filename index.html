@@ -2,11 +2,54 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <script src="bundle.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>Basic application with Webpack</title>
-    <link href="main.css">
   </head>
   <body>
-    <h1>WebPack works !!</h1>
-    <script src="bundle.js"></script>
+    <div id="box">
+      <div id="contact-box">
+        <label for="contacts" class="label">CONTACTS</label>
+        <br>
+        <input type="text" id="contacts" placeholder="Select Name">
+        
+      </div>
+        <input type="button" class="button" id="add" value="+">
+      <div>
+        <label for="subject" class="label">SUBJECT</label>
+        <br>
+        <input type="text" id="subject" placeholder="You can add a subject">
+      </div>
+
+      <div>
+        <label for="message" class="label">MESSAGE</label>
+        <br>
+        <div id="edit-box">
+          <span class="edit-item">B </span>
+          <span class="edit-item">I</span>
+          <span class="edit-item">U</span>
+          <span class="edit-item"><img src="pic.png" alt=""> </span>
+          <span class="edit-item"><i class="material-icons" style="font-size:15px;">format_align_left</i></span>
+          <span class="edit-item"><i class="material-icons" style="font-size:15px;">format_align_center</i></span>
+          <span class="edit-item"><i class="material-icons" style="font-size:15px;">format_align_right</i></span>
+          <span class="edit-item"><i class="material-icons" style="font-size:15px;">format_align_justify</i></span>
+          
+        </div>
+        <textarea name="message" id="message" rows="10"></textarea>
+      </div>
+
+      <span id="buttons">
+        
+        <button class="button" id="discard">
+          <i class="material-icons" style="color:white;font-size:18px;margin-left:-37px;margin-right:18px;padding:0px;">close</i>
+          Discard
+        </button>
+
+        <button class="button" id="send">
+          <i class="material-icons" style="color:white;font-size:18px;margin-left:-37px;margin-right:18px;padding:0px;">email</i>
+          Send Message
+        </button>    
+      </span>
+    </div>    
   </body>
 </html>

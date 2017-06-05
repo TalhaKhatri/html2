@@ -1,6 +1,117 @@
 body{
-  background: #dcdcdc;
+  background: #3B6888;
 }
 h1{
   color: blue;
+}
+
+#box {
+  border-top: 4px solid #A0DC47;
+  width: 400px;
+  height: 520px;
+  margin-left: 35%;
+  margin-top: 10%;
+  position: relative;
+  background-color: #FFFFFF;
+  box-shadow: 2px 2px 15px 0px #222;
+}
+
+input[type=text] {
+    width: 80%;
+    padding: 5% 15% 5% 3%;
+    margin: 3% 10%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    font-size: 13px;
+    box-sizing: border-box;
+}
+
+#contact-box {
+  padding-top: 7%;
+
+}
+
+.label {
+  margin-left: 10%;
+  position: relative;
+  font-size: 14px;
+  color: #12578E;
+  font-family: Helvetica, Arial, Sans-Serif;
+  font-weight: 600;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: right;
+    padding: 13px 8px 13px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+textarea{
+  margin-left: 10%;
+  width: 78%;
+  border: 1px solid #ccc;
+  resize: none;
+  margin-top: 0;
+}
+
+#add{
+  font-size: 30px;
+  font-weight: 800;
+  padding: 5px 12px; 
+  margin: 0;
+  position: absolute;
+  top: 12%;
+  left: 77%;
+  z-index: 2;
+  background-color: #A0DC47;
+}
+
+.material-icons { 
+  font-size: 15px;
+  color:  #999;
+  padding-top: 1px;
+}
+
+#pic {
+  background-color: #F1C684;
+  padding: 1px 10px; 
+  border: 2px solid #ccc;
+}
+
+#edit-box {
+  margin-top:3%;
+  margin-left: 10%;
+  margin-bottom: none;
+  padding: 2px 2.5px;
+  margin-bottom: 0px;
+  width: 78%;
+  border: 1px solid #ccc;
+}
+
+.edit-item {
+  padding: 0 6px;
+}
+
+#buttons {
+  margin-left: 10%;
+}
+
+#send {
+  margin-left: 14%;
+  background-color: #43B9E6; 
+  box-shadow: inset 40px 0px #2AA3DC;
+  
+}
+
+#discard {
+  background-color: #D0DCE7;
+  box-shadow: inset 40px 0px #B0C0CD;
 }
